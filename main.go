@@ -36,7 +36,7 @@ func main() {
 	e.Logger.Fatal(e.Start(":8085"))
 }
 
-// Handler
+// Retorno inicial
 func inicio(c echo.Context) error {
 	return c.String(http.StatusOK, "Tudo funcionando")
 
